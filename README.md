@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# E-commerce Website using Next.js
+
+This is a fully functional e-commerce website built with Next.js. It showcases various categories of products, a shopping cart, and a simple navigation structure. The website is styled using Tailwind CSS and utilizes React for building interactive components. It also integrates the Lucide React library for various icons.
+
+## Features
+
+- Responsive Navbar with links to Home, Categories, About, and Contact pages.
+- Shopping cart functionality with the ability to add and remove items.
+- Smooth search functionality to quickly jump to the search bar.
+- Fully styled using Tailwind CSS.
+
+## Technologies Used
+
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **React**: Library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Lucide React**: Icon library used throughout the application.
 
 ## Getting Started
 
-First, run the development server:
+### 1. Clone the repository
+
+Clone this repo to your local machine using the following command:
 
 ```bash
+git clone https://github.com/gauravKsingh25/Ecommerce-Nextjs.git
+cd Ecommerce-Nextjs
+2. Install dependencies
+Install all required dependencies with:
+
+bash
+Copy code
+npm install
+3. Create a .env.local file
+If you need environment variables, create a .env.local file in the root directory and add any necessary variables.
+
+4. Run the development server
+Start the server locally by running:
+
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The app will be available at http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open the application
+After running the server, open your browser and go to http://localhost:3000 to see the application in action.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Structure
+app/: Contains the main application pages.
+components/: Contains the components such as Navbar, Cart, etc.
+public/: Static assets such as images and fonts.
+styles/: Contains Tailwind CSS and global styles.
+List of Dependencies and Libraries Used
+Next.js: The React framework for building the application.
+React: The core library for building user interfaces.
+Tailwind CSS: For styling the components and layout.
+Lucide React: For icons used throughout the application.

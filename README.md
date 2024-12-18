@@ -29,7 +29,6 @@ cd Ecommerce-Nextjs
 Install dependencies
 
 ```bash
-Copy code
 npm install
 ```
 3. Create a .env.local file
@@ -39,7 +38,6 @@ If you need environment variables, create a .env.local file in the root director
 Start the server locally by running:
 
 ```bash
-Copy code
 npm run dev
 ```
 The app will be available at http://localhost:3000.

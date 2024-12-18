@@ -25,10 +25,9 @@ Clone this repo to your local machine using the following command:
 ```bash
 git clone https://github.com/gauravKsingh25/Ecommerce-Nextjs.git
 cd Ecommerce-Nextjs
-Install dependencies
-Install all required dependencies with:
-
 ```
+Install dependencies
+
 ```bash
 Copy code
 npm install

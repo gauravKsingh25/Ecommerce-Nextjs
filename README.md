@@ -1,5 +1,8 @@
 # E-commerce Website using Next.js
 
+#Live Link-- https://bi531beysd7iljlj.vercel.app/
+#vedio Link --https://youtu.be/mrPZJPX___0
+
 This is a fully functional e-commerce website built with Next.js. It showcases various categories of products, a shopping cart, and a simple navigation structure. The website is styled using Tailwind CSS and utilizes React for building interactive components. It also integrates the Lucide React library for various icons.
 
 ## Features

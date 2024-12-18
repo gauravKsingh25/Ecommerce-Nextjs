@@ -25,3 +25,25 @@ Clone this repo to your local machine using the following command:
 ```bash
 git clone https://github.com/gauravKsingh25/Ecommerce-Nextjs.git
 cd Ecommerce-Nextjs
+Install dependencies
+Install all required dependencies with:
+
+```
+```bash
+Copy code
+npm install
+```
+3. Create a .env.local file
+If you need environment variables, create a .env.local file in the root directory and add any necessary variables.
+
+4. Run the development server
+Start the server locally by running:
+
+```bash
+Copy code
+npm run dev
+```
+The app will be available at http://localhost:3000.
+
+5. Open the application
+After running the server, open your browser and go to http://localhost:3000 to see the application in action.

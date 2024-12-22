@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useCart } from "../../components/CartContext";
-
+import { use } from  "react"
 async function getProduct(id) {
   const res = await fetch(`https://dummyjson.com/products/${id}`);
   if (!res.ok) {
@@ -12,18 +12,19 @@ async function getProduct(id) {
 }
 
 export default function ProductPage({ params }) {
+  const resolvedparams =  use(params);
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [currentImage, setCurrentImage] = useState(0);
   const { addToCart } = useCart();
 
-  useState(() => {
-    getProduct(params.id)
+  useEffect(() => {
+    getProduct(resolvedparams.id)
       .then(setProduct)
       .catch((err) => setError("Failed to load product"))
       .finally(() => setLoading(false));
-  }, [params.id]);
+  }, [resolvedparams.id]);
 
   if (loading) return <div className="text-center mt-8">Loading...</div>;
   if (error)
